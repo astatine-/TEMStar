@@ -1,139 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IEEE TEMS TEMSTar Awards - Call for Nominations</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1 {
-            color: #005a9c;
-        }
-        h2 {
-            color: #0077be;
-        }
-        .countdown {
-            font-size: 24px;
-            font-weight: bold;
-            margin: 20px 0;
-            background-color: #f0f0f0;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        .nomination-links {
-            margin: 20px 0;
-            display: flex;
-            justify-content: space-around;
-        }
-        .nomination-links a {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #005a9c;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        .nomination-links a:hover {
-            background-color: #003d69;
-        }
-        .importance-section {
-            background-color: #f9f9f9;
-            padding: 20px;
-            border-radius: 5px;
-            margin: 20px 0;
-        }
-        .header-image {
-            width: 100%;
-            max-height: 200px;
-            object-fit: cover;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
-        .category-images {
-            display: flex;
-            justify-content: space-between;
-            margin: 20px 0;
-        }
-        .category-images img {
-            width: 48%;
-            border-radius: 5px;
-        }
-        .importance-image {
-            width: 100%;
-            max-height: 300px;
-            object-fit: cover;
-            border-radius: 5px;
-            margin: 20px 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IEEE TEMS TEMSTar Award Nominations</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #0056b3;
+    }
+
+    h2 {
+      color: #004085;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .award-categories {
+      margin-top: 40px;
+    }
+
+    .award-category {
+      padding: 20px;
+      margin: 10px 0;
+      background-color: #f1f1f1;
+      border-left: 6px solid #0056b3;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px 0;
+      background-color: #0056b3;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .button:hover {
+      background-color: #003f7f;
+    }
+
+    .countdown {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .countdown h3 {
+      font-size: 20px;
+      color: #333;
+    }
+
+    .countdown-timer {
+      font-size: 36px;
+      color: #d9534f;
+    }
+
+    .info-section {
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      .button {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
 </head>
 <body>
-    <img src="/api/placeholder/800/200" alt="IEEE TEMS TEMSTar Awards Banner" class="header-image">
 
-    <h1>IEEE TEMS TEMSTar Awards - Call for Nominations</h1>
-    
-    <div class="countdown" id="countdown"></div>
-    
-    <h2>Award Categories</h2>
-    <div class="category-images">
-        <img src="/api/placeholder/380/250" alt="Technology Leader of the Year">
-        <img src="/api/placeholder/380/250" alt="Engineering Manager of the Year">
+  <div class="container">
+    <h1>IEEE TEMS TEMSTar Award Nominations</h1>
+    <p>The IEEE Technology and Engineering Management Society (TEMS) is proud to announce the <strong>TEMSTar Awards</strong>, recognizing outstanding professionals in the fields of technology and engineering management. We invite you to nominate exemplary leaders and managers who have made significant contributions to their fields.</p>
+
+    <div class="award-categories">
+      <h2>Award Categories</h2>
+      
+      <div class="award-category">
+        <h3>Technology Leader of the Year</h3>
+        <p>This award celebrates a visionary leader who has made notable technological advancements, driven innovation, and inspired teams to achieve remarkable outcomes.</p>
+        <a href="#" class="button">Nominate for Technology Leader of the Year</a>
+      </div>
+      
+      <div class="award-category">
+        <h3>Engineering Manager of the Year</h3>
+        <p>Recognizing an individual who has demonstrated exceptional skills in managing engineering projects, leading teams, and delivering high-impact results while promoting ethical engineering practices.</p>
+        <a href="#" class="button">Nominate for Engineering Manager of the Year</a>
+      </div>
     </div>
-    <ul>
-        <li>Technology Leader of the Year</li>
-        <li>Engineering Manager of the Year</li>
-    </ul>
-    
-    <div class="nomination-links">
-        <a href="#technology-leader-form">Nominate for Technology Leader</a>
-        <a href="#engineering-manager-form">Nominate for Engineering Manager</a>
+
+    <div class="countdown">
+      <h3>Time Left to Submit Your Nomination:</h3>
+      <div class="countdown-timer" id="countdown-timer">Loading...</div>
     </div>
-    
-    <h2>About the TEMSTar Awards</h2>
-    <p>The IEEE TEMS TEMSTar Awards recognize outstanding contributions in the fields of technology leadership and engineering management. These prestigious awards honor individuals who have demonstrated exceptional skills, innovation, and impact in their respective roles.</p>
-    
-    <div class="importance-section">
-        <h2>The Importance of Technology and Engineering Management</h2>
-        <img src="/api/placeholder/800/300" alt="Technology and Engineering Management" class="importance-image">
-        <p>Technology and Engineering Management plays a crucial role in driving innovation, efficiency, and progress in our rapidly evolving technological landscape. Here's why it's so important:</p>
-        <ul>
-            <li><strong>Bridging Technical and Business Realms:</strong> Technology and Engineering Managers act as vital bridges between technical teams and business stakeholders, ensuring that technological innovations align with organizational goals and market needs.</li>
-            <li><strong>Driving Innovation:</strong> Effective management in these fields fosters an environment conducive to innovation, encouraging the development of cutting-edge technologies and solutions that address complex global challenges.</li>
-            <li><strong>Optimizing Resource Allocation:</strong> Skilled managers ensure efficient allocation of resources, both human and material, maximizing productivity and return on investment in technological projects.</li>
-            <li><strong>Navigating Rapid Change:</strong> In an era of unprecedented technological advancement, adept management is crucial for navigating change, adapting to new paradigms, and staying ahead of the curve.</li>
-            <li><strong>Ensuring Ethical and Sustainable Development:</strong> Technology and Engineering Managers play a key role in ensuring that technological progress is aligned with ethical considerations and sustainability goals, contributing to responsible innovation.</li>
-            <li><strong>Fostering Interdisciplinary Collaboration:</strong> These leaders facilitate collaboration across diverse disciplines, integrating various expertise to solve complex, multifaceted problems.</li>
-        </ul>
-        <p>By recognizing excellence in Technology and Engineering Management, the TEMSTar Awards not only honor individual achievements but also highlight the critical importance of this field in shaping our technological future.</p>
+
+    <div class="info-section">
+      <h2>Who Can Nominate?</h2>
+      <p>We welcome nominations from all professionals within the technology and engineering fields. Whether you are a colleague, supervisor, or team member, if you know someone who embodies excellence in leadership or management, we encourage you to submit a nomination.</p>
     </div>
-    
-    <h2>Nomination Process</h2>
-    <p>We invite you to nominate deserving candidates for the TEMSTar Awards. The nomination process is open until November 15th. Please use the appropriate form to submit your nomination, providing detailed information about the nominee's achievements and contributions to their field.</p>
-    
-    <script>
-        // Countdown timer
-        var countDownDate = new Date("Nov 15, 2024 23:59:59").getTime();
-        var x = setInterval(function() {
-            var now = new Date().getTime();
-            var distance = countDownDate - now;
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            document.getElementById("countdown").innerHTML = "Time remaining: " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("countdown").innerHTML = "NOMINATIONS CLOSED";
-            }
-        }, 1000);
-    </script>
+
+    <div class="info-section">
+      <h2>Selection Process</h2>
+      <p>All nominations will be reviewed by a distinguished panel of IEEE TEMS experts. Winners will be announced in December 2024, and the awards will be presented at a special IEEE TEMS event.</p>
+    </div>
+  </div>
+
+  <script>
+    // Set the deadline date
+    var deadline = new Date("Nov 15, 2024 23:59:59").getTime();
+
+    // Update the countdown every 1 second
+    var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = deadline - now;
+
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("countdown-timer").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown-timer").innerHTML = "Expired";
+      }
+    }, 1000);
+  </script>
+
 </body>
 </html>
